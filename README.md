@@ -2,17 +2,19 @@
 Find the number you see twice to win. Simple multiplayer game.
 
 # How to install:
-## Windows:
+### Windows:
 1. Download
 2. Extract
 3. Run beide_server\START.cmd
+### Linux:
+Coming soon...
 
 # How to play:
 ### Singleplayer:
 1. Run beide_singleplayer\beide_singleplayer.html
 2. Press space
 3. Find the number you see twice
-### Multiplayer
+### Multiplayer:
 1. Open index.js using notepad
 2. Edit configuration as you need.
 3. Save and close the file.
