@@ -5,7 +5,7 @@ Find the number you see twice to win. Simple multiplayer game.
 ### Windows:
 1. Download
 2. Extract
-3. Run beide_server\START.cmd
+3. Run beide_server\INSTALL.cmd
 ### Linux:
 Coming soon...
 
