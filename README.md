@@ -5,6 +5,7 @@ Find the number you see twice to win. Simple multiplayer game.
 ## Windows:
 1. Download
 2. Extract
+3. Run beide_server\START.cmd
 
 # How to play:
 ### Singleplayer:
@@ -15,5 +16,5 @@ Find the number you see twice to win. Simple multiplayer game.
 1. Open index.js using notepad
 2. Edit configuration as you need.
 3. Save and close the file.
-3. Run beide_server\START.cmd
+4. Run beide_server\START.cmd (node index.js)
 5. Use your browser to connect to the server using ip you see in the console.
