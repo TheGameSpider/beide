@@ -2,5 +2,11 @@
   "name": "beide_server",
   "version": "1.0.0",
   "description": "Beide",
-  "dependencies": {}
+  "scripts": {"start": "node index.js"},
+  "dependencies": {
+  	"express":"*",
+  	"socket.io":">=2.0.0",
+  	"inquirer":"*",
+  	"public-ip":"*"
+  }
 }
