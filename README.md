@@ -14,7 +14,7 @@ sudo apt-get install -y nodejs
 ```
 2. Clone beide repository
 ```
-git clone --single-branch --branch linux_server
+git clone --single-branch --branch linux_server https://github.com/TheGameSpider/beide.git
 ```
 3. Run install script
 ```
