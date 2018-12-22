@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Beide</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="jquery-3.3.1.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="client.js"></script>
+	<link href="css.css" rel="stylesheet">
+	<meta name="viewport" content="width=1920px">
+<script>
+		
+	</script>
+	<style type="text/css">
+		body {
+			margin:0;
+			background-color: #ffcc99;
+			transition: background-color .3s;
+		}
+		#beide {
+			display: block;
+			margin: auto;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<span style="position:fixed;font-size: 20px;margin-left:20px;" id="name"></span>
+
+	<center id="login" style="margin-top: 300px;"><h1>Username:</h1><div style="display:block;margin:auto;"><div style="width: fit-content;" class="input-group mb-3"><input maxlength="24" type="text" class="form-control-lg" id="namein"><div class="input-group-append"><div class="input-group-append"><button id="submit" class="btn btn-primary">OK</button></div></div></div><br></center>
+	<canvas id="beide" width="1600" height="650">
+	</canvas>
+	<br>
+	<center>
+		<input hidden type="text" class="form-control-lg" id="input" style="height: 200px;font-size: 180px;width: 220px;text-align: center"><br>
+		<span id="users"></span>
+	</center>
+	<audio style="display:none" id="fail">
+		<source type="audio/mpeg" src="fail.mp3">
+	</audio>
+	<audio style="display:none" id="succ">
+		<source type="audio/mpeg" src="succ.mp3">
+	</audio>
+	<script type="text/javascript">
+
+	</script>
+</body>
+</html>
