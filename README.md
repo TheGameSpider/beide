@@ -9,16 +9,16 @@ Find the number you see twice to win. Simple multiplayer game.
 ### Linux:
 1 Install node
 ```
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 2. Clone beide repository
 ```
 git clone --single-branch --branch linux_server https://github.com/TheGameSpider/beide.git
 ```
-3. Run install script
+3. Install dependencies
 ```
-install.sh
+npm install
 ```
 
 # How to play:
@@ -38,3 +38,10 @@ install.sh
 ```
 nano index.js
 ```
+2. Edit configuration as you need.
+3. Save the file (`Ctrl+X, y, Enter`)
+4. Start the server
+```
+npm start
+```
+5. Use your browser to connect to the server using ip you see in the console.
