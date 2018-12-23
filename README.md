@@ -6,6 +6,8 @@ Find the number you see twice to win. Simple multiplayer game.
 1. Download
 2. Extract
 3. Run beide_server\INSTALL.cmd
+
+> You can also download branch `installed` - It is ready to play, no installation needed
 ### Linux:
 1 Install node
 ```
