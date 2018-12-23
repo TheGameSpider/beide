@@ -9,7 +9,7 @@ Find the number you see twice to win. Simple multiplayer game.
 
 > You can also download branch `installed` - It is ready to play, no installation needed
 ### Linux:
-1 Install node
+1. Install node
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
