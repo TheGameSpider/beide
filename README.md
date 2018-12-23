@@ -18,7 +18,7 @@ git clone --single-branch --branch linux_server https://github.com/TheGameSpider
 ```
 3. Install dependencies
 ```
-npm install
+sudo npm install
 ```
 
 # How to play:
@@ -42,6 +42,6 @@ nano index.js
 3. Save the file (`Ctrl+X, y, Enter`)
 4. Start the server
 ```
-npm start
+sudo npm start
 ```
 5. Use your browser to connect to the server using ip you see in the console.
