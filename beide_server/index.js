@@ -119,7 +119,13 @@ inquirer.prompt(questions).then(answers => {
 			if(gs==1) {
 				clearTimeout(starting);
 				restart = false;
-				stop("The Admin");
+				var end = {};
+				Object.keys(io.sockets.sockets).forEach(function(id) {
+					end[io.sockets.connected[id]['username']] = io.sockets.connected[id]['points'];
+				});
+				var winner = Object.keys(end).reduce(function(a, b){ return end[a] > end[b] ? a : b });
+				console.log(winner + " won!");
+				stop(winner);
 			} else {
 				console.log("Game is not running");
 			}
